@@ -1,0 +1,365 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px;
+}
+
+.menu-pricipal{
+    width: 100%;
+    background-color:#000000;
+    height: 75px;
+}
+
+main{
+    margin: 0 auto;
+    width: 980px;   
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+
+.redes-sociais ul li{
+    margin-left: 5px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais{
+    width: 20%;
+    float: right;
+}
+
+.header-2{
+    background-color:rgb(73, 73, 73);
+    width: 980px;
+    margin: 0 auto;
+    padding: 7px
+    
+}
+
+.menu2{
+    height: 70px;
+    border-bottom: 3px solid #efefef ;
+    background-color: rgb(73, 73, 73);
+}
+.menu ul li {
+    display: inline-block;
+    color:rgb(0, 26, 255);
+    margin-left: 17px;
+    height: 50px;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid rgb(97, 97, 97);
+}
+.menu ul li a:hover{
+    color: rgb(212, 35, 35);
+    
+}
+
+.menu ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:18px;
+    text-transform:uppercase;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+
+.pesquisas{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.pesquisas input{
+    background-image: url('./Imagens/camera-fotografica.png');
+    background-repeat: no-repeat;
+    background-position: 160px;
+    margin-top: 9px;
+    height: 20px;
+    padding: 7px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+}
+
+.coluna-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.slider-1{
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.slick-initialized{
+    overflow: hidden;
+
+}
+
+.coluna-150{
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: black;
+}
+
+.coluna-150 h1 {
+    color: #fffefe;
+    margin-top: 50px;
+    padding-left: 60px;
+    font-family: initial;
+}
+.coluna-150 p {
+    font-family:sans-serif;
+    padding-left: 60px;
+    color: rgb(255, 255, 255);
+}
+
+button.slick-prev{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+}
+
+button.slick-next{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+}
+
+.teste1{
+    width: 100%;
+    background-color:#000000;
+    height: 300px;
+
+}
+
+.float-banner {
+    position: absolute;
+    left: 50%;
+    width: 200px; height: 200px;
+    margin-top: 200px; margin-left: -200px;
+}
+
+
+.imgefeito {
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.imgefeito a {
+    text-decoration: none;
+    float: left;
+}
+.imgefeito a:hover {
+    cursor: pointer;
+} 
+.imgefeito a img {
+    float: left;
+    margin: 0;
+    border: none;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+} 
+
+
+.imgefeito a:hover .desc{
+    display: block;
+    padding: 10px 0;
+    background: #111;
+    filter:alpha(opacity=75);
+    opacity:.75;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; 
+    color: rgb(216, 208, 208);
+    position: absolute;
+    bottom: 11px;
+    left: 11px;
+    padding: 10px;
+    margin: 0;
+    width: 615px;
+    border-top: 5px solid rgb(0, 0, 0);
+}
+.imgefeito a:hover .desc strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size:0.80em;
+    overflow: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.coluna-250{
+    
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    float: right;
+    margin-left: 10px;
+    border: #000000;
+}
+
+.menu3-5{
+    margin-left: 5px;
+    display: inline-block;
+    list-style: none;
+    padding-left: 50%;
+    
+}
+
+.colula-300{
+    width: 100%;
+    background-color:#424242;
+    height: 75px;
+}
+
+.menu-4 p{
+    color: rgb(10, 10, 10);
+    padding-left: 35%;
+    overflow: hidden;
+}
+.paginas1{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.about1{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.coluna-200{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.slider-2-1{
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: black;
+}
+
+.slider-2-1-1{
+    width: 70%;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 4px solid #030303;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 649px;
+    
+    
+}
+.historia-1-1{
+    background-color: rgb(71, 71, 71);
+    float: left;
+    
+}
+
+.historia-1-1 h1{
+    color: black;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.historia-1-1 p{
+    color: rgb(12, 11, 11);
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-contato{
+    margin-top: 4px;
+}
+.contato{
+    overflow: hidden;
+    padding-left: 320px;
+    background-color:#fffafa;
+    color: #efefef;
+    height: 500px;
+    padding: 0 auto;
+    background-image: url(./Imagens/imagem-4\ -\ Copia.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+}
+
+.redes{
+    overflow: hidden;
+    padding-left: 280px;
+    background-color:#000000;
+    height: 1630px;
+    padding: 0 auto;
+}
+.redes h2{
+    padding-left: 1px;
+    color: rgb(247, 241, 241);
+}
+
+.portfolio-1{
+    display: inline block;
+    display: 0 auto;
+}
+
+.portfolio-1 {
+    width: 100%;
+    background-color:#000000;
+    overflow: hidden;
+    padding-left: 32%;
+    padding-top: 10px;
+    
+}
+
+.portfolio-1 main{
+    float: left;
+    padding: 1500px;
+    width: 70%;
+
+    
+}
+
+    
+
+
+
